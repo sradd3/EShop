@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.Services.Contracts;
+﻿using EShop.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace EShop.Web.ViewComponents
 {

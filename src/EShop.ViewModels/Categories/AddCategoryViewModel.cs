@@ -1,5 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
+using System.ComponentModel.DataAnnotations;
 
 namespace EShop.ViewModels.Categories
 {

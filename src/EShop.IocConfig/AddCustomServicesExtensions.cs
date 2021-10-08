@@ -1,5 +1,4 @@
-﻿using System;
-using EShop.Common.Mvc;
+﻿using EShop.Common.Mvc;
 using EShop.DataLayer.Context;
 using EShop.Entities.Identity;
 using EShop.Services;
@@ -15,6 +14,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
+using System;
 
 namespace EShop.IocConfig
 {

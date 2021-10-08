@@ -1,5 +1,5 @@
-﻿using System.Collections.Generic;
-using EShop.Entities;
+﻿using EShop.Entities;
+using System.Collections.Generic;
 
 namespace EShop.Services.Contracts
 {

@@ -1,15 +1,14 @@
-﻿using EShop.Entities;
-using EShop.Services.Contracts.Identity;
-using Microsoft.AspNetCore.Identity;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.DataLayer.Context;
+﻿using EShop.DataLayer.Context;
 using EShop.Entities.Identity;
+using EShop.Services.Contracts.Identity;
 using EShop.ViewModels.Roles;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EShop.Services.EFServices.Identity
 {
@@ -56,7 +55,7 @@ namespace EShop.Services.EFServices.Identity
             {
                 Id = x.Id,
                 Name = x.Name
-            }).SingleOrDefaultAsync(x=>x.Id == id);
+            }).SingleOrDefaultAsync(x => x.Id == id);
         }
 
         public Task<Role> RoleToDelete(int id)

@@ -1,10 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.Services.Contracts;
+﻿using EShop.Services.Contracts;
 using EShop.ViewModels.Products;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Controllers
 {
@@ -18,7 +16,7 @@ namespace EShop.Web.Controllers
             _productService = productService;
             _categoryService = categoryService;
         }
-        
+
         public async Task<IActionResult> Index(
                 List<int> selectedCategories,
                 int selectedMinPrice,

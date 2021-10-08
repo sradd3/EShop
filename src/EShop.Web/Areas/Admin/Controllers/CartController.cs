@@ -1,9 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using EShop.Services.Contracts;
+using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using EShop.Services.Contracts;
 
 namespace EShop.Web.Areas.Admin.Controllers
 {

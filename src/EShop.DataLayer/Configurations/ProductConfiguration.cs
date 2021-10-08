@@ -1,8 +1,4 @@
-﻿using EShop.Entities;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
-
-namespace EShop.DataLayer.Configurations
+﻿namespace EShop.DataLayer.Configurations
 {
     //public class ProductConfiguration : IEntityTypeConfiguration<Product>
     //{

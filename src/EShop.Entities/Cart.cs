@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using EShop.Entities.Identity;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using EShop.Entities.Identity;
 
 namespace EShop.Entities
 {

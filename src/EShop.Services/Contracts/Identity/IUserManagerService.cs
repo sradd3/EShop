@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using EShop.Entities;
-using EShop.Entities.Identity;
+﻿using EShop.Entities.Identity;
 using EShop.ViewModels.Account;
 using EShop.ViewModels.Users;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace EShop.Services.Contracts.Identity
 {

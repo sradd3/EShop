@@ -1,5 +1,5 @@
-﻿using System;
-using EShop.Entities.Identity;
+﻿using EShop.Entities.Identity;
+using System;
 
 namespace EShop.Entities
 {

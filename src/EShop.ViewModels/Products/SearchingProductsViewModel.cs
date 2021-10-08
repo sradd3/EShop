@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
-using EShop.ViewModels.Categories;
-using Microsoft.AspNetCore.Mvc;
+﻿using EShop.ViewModels.Categories;
+using System.Collections.Generic;
 
 namespace EShop.ViewModels.Products
 {

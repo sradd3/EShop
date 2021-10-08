@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using EShop.Entities;
+﻿using EShop.Entities;
 using EShop.ViewModels.Products;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EShop.Services.Contracts
 {
@@ -17,7 +14,7 @@ namespace EShop.Services.Contracts
         Task<List<ProductPreviewViewModel>> GetNewestProductAsync(int? excludeId = null, int take = 8);
         Task<List<ProductPreviewViewModel>> GetBestSellingProductAsync(int take = 5);
         Task<List<ShowProductInComboBoxViewModel>> GetProductForComboBox();
-        ProductCartsWithPagination GetProductsWithFilterAndPagination(List<int> selectedCategories,int minPrice, int maxPrice, int selectedPage, string searchKey = "", int take = 2, ProductSearchConditionEnum condition = ProductSearchConditionEnum.Newest);
+        ProductCartsWithPagination GetProductsWithFilterAndPagination(List<int> selectedCategories, int minPrice, int maxPrice, int selectedPage, string searchKey = "", int take = 2, ProductSearchConditionEnum condition = ProductSearchConditionEnum.Newest);
         int GetMinPrice();
         int GetMaxPrice();
 

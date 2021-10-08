@@ -1,22 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Metadata;
-using System.Runtime.CompilerServices;
-using System.Threading.Tasks;
-using EShop.Common;
+﻿using EShop.Common;
 using EShop.Common.Constants;
 using EShop.DataLayer.Context;
 using EShop.Entities;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Categories;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Query.Internal;
+using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Areas.Admin.Controllers
 {

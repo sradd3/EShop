@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace EShop.ViewModels.Users
 {

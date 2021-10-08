@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-using Dto.Payment;
+﻿using Dto.Payment;
 using EShop.Common.Constants;
 using EShop.Common.Extensions;
 using EShop.DataLayer.Context;
@@ -12,6 +6,10 @@ using EShop.Entities;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Cart;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 using ZarinPal.Class;
 
 namespace EShop.Web.Controllers

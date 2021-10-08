@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using EShop.DataLayer.Context;
 using EShop.Entities;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Products;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualBasic;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EShop.Services.EFServices
 {
@@ -18,7 +15,7 @@ namespace EShop.Services.EFServices
     {
         private readonly IUnitOfWork _uow;
         private readonly DbSet<Product> _products;
-        private readonly  IMapper _mapper;
+        private readonly IMapper _mapper;
 
         public ProductService(IUnitOfWork uow, IMapper mapper)
             : base(uow)

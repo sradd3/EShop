@@ -1,8 +1,8 @@
-﻿using System.Threading.Tasks;
-using EShop.DataLayer.Context;
+﻿using EShop.DataLayer.Context;
 using EShop.Entities;
 using EShop.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.Tasks;
 
 namespace EShop.Services.EFServices
 {

@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using EShop.Entities;
+﻿using EShop.Entities;
+using System.Threading.Tasks;
 
 namespace EShop.Services.Contracts
 {

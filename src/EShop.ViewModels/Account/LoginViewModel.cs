@@ -1,8 +1,7 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using EShop.Common.Constants;
-using EShop.ViewModels.Application;
+﻿using EShop.Common.Constants;
 using Microsoft.AspNetCore.Authentication;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace EShop.ViewModels.Account
 {

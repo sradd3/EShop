@@ -1,12 +1,10 @@
-﻿using System.Data;
-using System.Threading.Tasks;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
 using EShop.DataLayer.Context;
 using EShop.Entities.Identity;
 using EShop.Services.Contracts.Identity;
 using EShop.ViewModels.Roles;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Areas.Admin.Controllers
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.IO;
-using System.Threading.Tasks;
-using EShop.Services.Contracts;
+﻿using EShop.Services.Contracts;
 using EShop.ViewModels.Application;
 using MailKit.Net.Smtp;
 using Microsoft.AspNetCore.Hosting;
@@ -9,6 +6,9 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Options;
 using MimeKit;
 using MimeKit.Text;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace EShop.Services
 {
