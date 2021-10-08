@@ -1,6 +1,3 @@
-using System;
-using System.IO;
-using System.Threading.Tasks;
 using EShop.Common;
 using EShop.Common.Constants;
 using EShop.Common.Extensions;
@@ -8,7 +5,9 @@ using EShop.DataLayer.Context;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Sliders;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Pages.AdminPage.Slider
 {
@@ -25,7 +24,7 @@ namespace EShop.Web.Pages.AdminPage.Slider
             _sliderService = sliderService;
             _uow = uow;
         }
-        
+
         public async Task OnGetAsync()
         {
             ViewData["Products"] = (await _productService.GetProductForComboBox()).CreateSelectListItem();

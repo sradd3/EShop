@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using EShop.Entities;
-using EShop.Entities.Identity;
+﻿using EShop.Entities.Identity;
 using EShop.Services.Contracts.Identity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;

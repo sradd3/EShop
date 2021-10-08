@@ -1,10 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EShop.Web.Areas.Admin.Controllers
 {

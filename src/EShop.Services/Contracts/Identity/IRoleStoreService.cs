@@ -1,13 +1,11 @@
-﻿using System;
+﻿using EShop.Entities.Identity;
+using Microsoft.AspNetCore.Identity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
-using EShop.DataLayer.Context;
-using EShop.Entities;
-using EShop.Entities.Identity;
-using Microsoft.AspNetCore.Identity;
 
 namespace EShop.Services.Contracts.Identity
 {

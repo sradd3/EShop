@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using EShop.Entities;
 using EShop.Entities.Identity;
 using EShop.ViewModels.Account;
 using EShop.ViewModels.Cart;
 using EShop.ViewModels.Products;
 using EShop.ViewModels.Users;
+using System.Linq;
 
 namespace EShop.Web.Mappings
 {

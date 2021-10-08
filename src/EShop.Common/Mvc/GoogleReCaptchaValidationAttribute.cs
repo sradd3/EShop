@@ -1,9 +1,9 @@
-﻿using System;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json.Linq;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Net.Http;
-using Microsoft.Extensions.Configuration;
-using Newtonsoft.Json.Linq;
 
 namespace EShop.Common.Mvc
 {

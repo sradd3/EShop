@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using EShop.Common;
 using EShop.Common.Constants;
 using EShop.Common.Extensions;
@@ -10,7 +5,9 @@ using EShop.DataLayer.Context;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Sliders;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+using System;
+using System.IO;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Pages.AdminPage.Slider
 {
@@ -40,7 +37,7 @@ namespace EShop.Web.Pages.AdminPage.Slider
             ViewData["Products"] = (await _productService.GetProductForComboBox()).CreateSelectListItem(selectedItem: Slider.ProductId);
             return Page();
         }
-        
+
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)

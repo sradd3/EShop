@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.DataLayer.Context;
-using EShop.Entities;
+﻿using EShop.DataLayer.Context;
 using EShop.Services.Contracts;
 using EShop.Services.Contracts.Identity;
-using EShop.ViewModels.Products;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.Extensions.Options;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Controllers
 {

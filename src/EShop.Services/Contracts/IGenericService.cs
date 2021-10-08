@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using EShop.Entities;
+using System.Collections.Generic;
 using System.Threading.Tasks;
-using EShop.Entities;
 
 namespace EShop.Services.Contracts
 {

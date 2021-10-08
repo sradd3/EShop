@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
 using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 namespace EShop.ViewModels.Sliders
 {

@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using EShop.Entities;
+﻿using EShop.Entities;
 using EShop.ViewModels.Sliders;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EShop.Services.Contracts
 {

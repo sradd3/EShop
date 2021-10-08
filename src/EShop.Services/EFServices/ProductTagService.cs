@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using EShop.DataLayer.Context;
+﻿using EShop.DataLayer.Context;
 using EShop.Entities;
 using EShop.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace EShop.Services.EFServices
 {

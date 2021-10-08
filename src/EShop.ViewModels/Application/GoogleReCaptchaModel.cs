@@ -1,6 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
-using EShop.Common.Mvc;
+﻿using EShop.Common.Mvc;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 
 namespace EShop.ViewModels.Application
 {

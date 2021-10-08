@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using EShop.Common;
+﻿using EShop.Common;
 using EShop.Common.Constants;
 using EShop.Common.Extensions;
 using EShop.DataLayer.Context;
@@ -12,7 +6,13 @@ using EShop.Entities;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Products;
 using EShop.ViewModels.ProductTags;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Areas.Admin.Controllers
 {

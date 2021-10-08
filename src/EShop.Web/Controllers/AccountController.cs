@@ -1,23 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using EShop.Common.Constants;
 using EShop.Common.Extensions;
 using EShop.Common.Mvc;
-using EShop.Entities;
 using EShop.Entities.Identity;
 using EShop.Services.Contracts;
 using EShop.Services.Contracts.Identity;
 using EShop.ViewModels.Account;
-using EShop.Web.Areas.Admin;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Controllers
 {
@@ -104,9 +100,9 @@ namespace EShop.Web.Controllers
         {
             if (User.Identity.IsAuthenticated && id is not null)
             {
-				// کاربر فعلی
+                // کاربر فعلی
                 var currentUser = await _userManager.FindByIdAsync(id.ToString());
-                if (string.Equals(currentUser.UserName,userName, StringComparison.OrdinalIgnoreCase))
+                if (string.Equals(currentUser.UserName, userName, StringComparison.OrdinalIgnoreCase))
                     return Json(true);
             }
             var user = await _userManager.FindByNameAsync(userName);
@@ -332,7 +328,7 @@ namespace EShop.Web.Controllers
             }
             return RedirectToAction(nameof(HomeController.Index), "Home");
         }
-        
+
         [HttpPost, ValidateAntiForgeryToken]
         public IActionResult ExternalLogin(string provider, string returnUrl)
         {
@@ -376,7 +372,7 @@ namespace EShop.Web.Controllers
                 if (Url.IsLocalUrl(returnUrl))
                     return Redirect(returnUrl);
                 return RedirectToAction(nameof(HomeController.Index),
-                    "Home", new {area = string.Empty});
+                    "Home", new { area = string.Empty });
             }
 
             var email = externalLoginInfo.Principal.FindFirstValue(ClaimTypes.Email);

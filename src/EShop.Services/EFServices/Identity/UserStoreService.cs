@@ -1,9 +1,8 @@
 ﻿using EShop.DataLayer.Context;
-using EShop.Entities;
 using EShop.Entities.Identity;
+using EShop.Services.Contracts.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-using EShop.Services.Contracts.Identity;
 
 namespace EShop.Services.EFServices.Identity
 {

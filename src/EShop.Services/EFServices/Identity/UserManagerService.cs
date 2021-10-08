@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using EShop.DataLayer.Context;
-using EShop.Entities;
 using EShop.Entities.Identity;
 using EShop.Services.Contracts.Identity;
 using EShop.ViewModels.Account;
@@ -14,6 +9,10 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace EShop.Services.EFServices.Identity
 {

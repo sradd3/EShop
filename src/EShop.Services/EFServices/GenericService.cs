@@ -1,12 +1,11 @@
-﻿using System;
+﻿using EShop.DataLayer.Context;
+using EShop.Entities;
+using EShop.Services.Contracts;
+using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EShop.DataLayer.Context;
-using EShop.Entities;
-using EShop.Services.Contracts;
-using Microsoft.CodeAnalysis.Operations;
-using Microsoft.EntityFrameworkCore;
 
 namespace EShop.Services.EFServices
 {

@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Security.Principal;
-using System.Text;
-using System.Threading.Tasks;
-using EShop.Common.Constants;
+﻿using EShop.Common.Constants;
 using EShop.Entities.Identity;
 using EShop.Services.Contracts.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
+using System.Security.Claims;
+using System.Threading.Tasks;
 
 namespace EShop.Services.EFServices.Identity
 {

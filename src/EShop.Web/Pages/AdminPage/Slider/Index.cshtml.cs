@@ -1,13 +1,10 @@
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using EShop.Common.Constants;
 using EShop.Common.Extensions;
 using EShop.DataLayer.Context;
 using EShop.Services.Contracts;
 using EShop.ViewModels.Sliders;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace EShop.Web.Pages.AdminPage.Slider
 {
